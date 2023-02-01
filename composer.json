@@ -9,11 +9,17 @@
       "email": "jamesiarmes@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/potofcoffee/php-ntlm"
+    }
+  ],
   "prefer-stable": true,
   "require": {
     "php": ">=7.1.0",
     "ext-soap": "*",
-    "jamesiarmes/php-ntlm": "~1.0"
+    "jamesiarmes/php-ntlm": "dev-php81"
   },
   "require-dev": {
     "mustache/mustache": "~2.0",
